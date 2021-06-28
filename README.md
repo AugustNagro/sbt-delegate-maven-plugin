@@ -100,11 +100,13 @@ Next, create a `pom.xml` file with the plugin:
 
 There is only one goal, `sbt`, and two configuration parameters available. `jvmParams` is an array of parameters for the JVM running SBT, and `sbtParams` are the parameters passed to SBT itself.
 
-You can bind the `sbt` goal to any phases you like, although only one is recommended for performance. Here we bind to `package`.
+You can bind the `sbt` goal to any phases you like, although only one is recommended for performance. Here we bind to Maven's `package` phase.
 
 Finally, notice that we skip execution of the built-in Maven compile and install plugins, since we're doing everything here with SBT.
 
 ## Version Table
+
+If there's a newer version of SBT available, please file a gihub issue and I'll cut a new release.
 
 | Sbt-Delegate-Maven-Plugin version | SBT version |
 | --- | --- |
