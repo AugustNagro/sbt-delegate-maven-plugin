@@ -18,6 +18,15 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
+  <developers>
+    <developer>
+      <id>augustnagro@gmail.com</id>
+      <name>August Nagro</name>
+      <email>augustnagro@gmail.com</email>
+      <url>https://augustnagro.com</url>
+    </developer>
+  </developers>
+
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -28,6 +37,8 @@
 
   <scm>
     <url>https://github.com/AugustNagro/sbt-delegate-maven-plugin</url>
+    <connection>scm:git:git@github.com:augustnagro/sbt-delegate-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:augustnagro/sbt-delegate-maven-plugin.git</developerConnection>
   </scm>
 
   <distributionManagement>
